@@ -1,0 +1,19 @@
+*{  
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+*:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

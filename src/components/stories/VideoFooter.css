@@ -1,0 +1,24 @@
+.videoFooter {
+  position: relative;
+  color: white;
+  bottom: 88px;
+  margin-left: 40px;
+  display: flex;
+  margin-right: 40px;
+}
+.videoFooter__text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  place-content: space-between;
+}
+
+.videoFooter__text > .MuiButtonBase-root > .MuiIconButton-label{
+  color:white;
+}
+.videoFooter__name {
+  filter: drop-shadow(2px 4px #000);
+}
+.videoFooter__timeNow{
+  filter: drop-shadow(2px 4px #000);
+}

@@ -1,0 +1,23 @@
+.styles_button__3Vugn {
+  background-color: #828282cf !important;
+  width: 42px !important;
+  height: 42px !important;
+  margin: 10px !important;
+}
+.styles_button__3Vugn:active {
+  transition: all 50ms ease !important;
+  transform: scale(1.03) !important;
+  background: #e5432d !important;
+}
+.voice{
+  user-select: none;
+}
+.tooltip {
+  position: absolute;
+  right: 14px;
+  top: -45px;
+  background: #37474F;
+  padding: 11px;
+  color: #fff;
+  border-radius: 6px;
+}

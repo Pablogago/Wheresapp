@@ -1,0 +1,53 @@
+.login {
+  background-color: #f8f8f8;
+  height:100vh;
+  width:100vw;
+  display: grid;
+  place-items: center;
+  background: url(https://hazlo-app-c809c.web.app/images/welcome-bg.png);
+}
+.login__container {
+  padding: 30px 80px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border:2px solid #e0e0e0;
+}
+.login__container > img {
+  object-fit: contain;
+  height: 400px;
+}
+.login__container > .login__buttons > button {
+  margin-top: 12px;
+  text-transform: inherit !important;
+  width: 100%;
+  color:white;
+  padding: 5px 18px;
+  border:double 9px;
+  border-radius:16px;
+}
+.login__google {
+  background-color: #cd0f1a !important;
+}
+.login__facebook {
+  background-color: #283593 !important;
+}
+.login__demo {
+  background: #666e6feb !important;
+}
+.login__buttons {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+  .login__container{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .login__container > img {
+    height: 320px;
+  }
+
+}

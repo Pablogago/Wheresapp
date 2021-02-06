@@ -1,0 +1,28 @@
+.app {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: #dadbd3;
+}
+.app__body {
+  display: flex;
+  height: 90vh;
+  width: 80vw;
+  background: #ededed;
+  margin-top: -50px;
+  box-shadow: -1px 4px 20px -6px rgb(0,0,0,0.72);
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .app__body {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .app {
+    display: block;
+  }
+}
